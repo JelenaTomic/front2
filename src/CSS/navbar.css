@@ -1,0 +1,75 @@
+.navbar {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	z-index: 2;
+	color: white;
+	background-color: #d4c7b0;
+	align-items: center;
+}
+
+.home-link {
+	text-decoration: none;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.logo {
+	font-family: 'Playfair Display', serif;
+	height: 100%;
+	font-size: 32px;
+	color: #6b705c;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.button-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+.login-btn {
+	font-family: 'Playfair Display', serif;
+	border: none;
+	font-size: 24px;
+	background-color: #d4c7b0;
+	outline: none;
+	color: #6b705c;
+	padding: 0 30px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.logout-btn {
+	font-family: 'Playfair Display', serif;
+	border: none;
+	font-size: 24px;
+	background-color: #d4c7b0;
+	outline: none;
+	color: #6b705c;
+	padding: 0 30px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.MuiAvatar-root{
+	background-color: #B98B73;
+}
+
+.login-btn:hover {
+	font-size: 27px;
+	transition: all 0.5s;
+	color: #3a3a15;
+}
+
+.logout-btn:hover {
+	font-size: 27px;
+	transition: all 0.5s;
+	color: #A5A58D;
+}

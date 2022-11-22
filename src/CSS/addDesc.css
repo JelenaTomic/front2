@@ -1,0 +1,81 @@
+.addDesc-container {
+	height: max-content;
+	width: 300px;
+	display: flex;
+}
+
+.addDesc-wrapper {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Playfair Display', serif;
+	width: 100%;
+}
+
+.addDesc-form {
+	align-items: center;
+	width: 100%;
+}
+
+.label {
+	font-size: 20px;
+}
+
+.txt-area {
+	height: 150px;
+	width: 100%;
+	resize: none;
+	font-size: 20px;
+}
+
+.addDesc-rating {
+	margin-left: -4px;
+}
+
+.form-items {
+	font-size: 25px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px;
+}
+
+.title-input {
+	padding: 6px;
+	font-size: 20px;
+	outline: none;
+}
+
+.addDesc-button {
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	display: flex;
+	background-color: #6B705C;
+	flex-direction: column;
+	color: black;
+	align-items: center;
+	min-height: 36px;
+	font-family: 'Playfair Display', serif;
+	margin-top: 10px;
+	padding: 9px;
+	cursor: pointer;
+	box-shadow: 3px 3px 3px 2px #3f4238;
+}
+
+.addDesc-button:hover {
+	transition: all 0.05s;	
+	cursor: pointer;
+	scale: 95%;
+}
+
+.mapboxgl-popup-close-button {
+	font-size: 30px;
+  }
+  
+  .mapboxgl-popup-close-button:hover {
+	  color: red;
+  }
